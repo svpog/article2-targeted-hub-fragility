@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this research companion and the associated article when its publication details become available."
 title: "Metric-Dependent Targeted Fragility of Hub-Based Supply Networks: Research Companion"
 type: software
-version: 0.1.0
+version: 1.0.0
 authors:
   - family-names: Pohorielov
     given-names: Stanislav V.
@@ -17,3 +17,5 @@ keywords:
   - targeted disruptions
   - maximum flow
   - reproducibility
+repository-code: "https://github.com/svpog/article2-targeted-hub-fragility"
+url: "https://github.com/svpog/article2-targeted-hub-fragility"

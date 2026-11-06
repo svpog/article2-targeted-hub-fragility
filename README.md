@@ -2,7 +2,7 @@
 
 Research companion prepared for the article by **Stanislav V. Pohorielov** and **Oleksii V. Yanovskyi**, intended for the *Bulletin of V. N. Karazin Kharkiv National University, series Mathematical Modeling. Information Technology. Automated Control Systems*.
 
-This repository contains the original simulation code, protocols, all **27,800 archived Monte Carlo runs**, the corresponding **2,807,800 observations of Q(t)**, and the numerical audit used to check the article. B2 is a reanalysis of B1 trajectories, not an additional set of independent simulations. The manuscript is not included in this research-data package. Publication details and a repository URL will be added after publication; no article DOI has been assigned here.
+This repository contains the original simulation code, protocols, all **27,800 archived Monte Carlo runs**, the corresponding **2,807,800 observations of Q(t)**, and the numerical audit used to check the article. B2 is a reanalysis of B1 trajectories, not an additional set of independent simulations. The manuscript is not included in this research-data package. Article publication details will be added when available; no article DOI has been assigned here.
 
 ## Experiments
 
@@ -27,6 +27,7 @@ python scripts/verify_release.py
 python scripts/recompute_audit.py
 python scripts/supplementary_checks.py
 python scripts/check_recomputed.py
+python scripts/check_rule_identity.py
 ```
 
 On Windows, activate with `.venv\Scripts\activate` instead. The audit reads `source/` and writes only `generated/audit/`. It recalculates metrics and tests from the archived raw outputs; it does not rerun simulations. Bootstrap confidence intervals use 5,000 resamples, so allow a few minutes. `check_recomputed.py` compares 13 numerical tables with the reviewed reference tables and checks the headline findings.
@@ -86,6 +87,6 @@ These results concern synthetic hub networks with N = 50 and h ≤ 8, single-com
 
 ## Citation and licensing
 
-Author and title metadata are provided in `CITATION.cff`. Cite the final repository release URL/tag or an archived DOI once available; no placeholder URL should be cited as an existing resource.
+Author and title metadata are provided in `CITATION.cff`. Cite the repository release v1.0.0: https://github.com/svpog/article2-targeted-hub-fragility/releases/tag/v1.0.0. An archival DOI has not been assigned.
 
-The prepared licensing scheme follows the authors' existing article-1 release: MIT for software, CC BY 4.0 for research data. See `LICENSE` for the scope. This is a local release candidate; it has not yet been published to GitHub.
+The prepared licensing scheme follows the authors' existing article-1 release: MIT for software, CC BY 4.0 for research data. See `LICENSE` for the scope. Repository: https://github.com/svpog/article2-targeted-hub-fragility. Version 1.0.0 provides the reviewed B1–B4 data and audit.

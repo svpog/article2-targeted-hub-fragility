@@ -25,5 +25,6 @@
   },
   "full_simulation_regeneration": "not run; audit uses all original archived results",
   "installation_in_fresh_environment": "not tested; execution used existing environment recorded in environment.json",
-  "publication": "local candidate; no remote repository created"
+  "publication": "GitHub repository and release v1.0.0",
+  "additional_rule_identity_check": "passed: 1800 pairs, all trajectory and metric differences zero"
 }

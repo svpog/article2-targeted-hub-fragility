@@ -18,8 +18,8 @@ Historical outputs may contain superseded interpretations: the original B4 rank 
 - Discrete damage budgets and non-nested irreversible sets prevent treating the w grid as a smooth nested intervention. A separate design is required for continuous sensitivity claims.
 - Identical outcomes in the studied rule comparisons are not statistical evidence of general rule equivalence. Jaccard overlaps quantify only this finite sample.
 - Bootstrap intervals cover paired median differences, not all derived aggregate indices. Sensitivity to recovery speed and empirical topology remains open.
-- GitHub repository URL, release tag/archive DOI, and final article DOI must be added only once they exist. The local candidate does not establish that the material is publicly accessible.
+- GitHub repository URL, release tag/archive DOI, and final article DOI must be added only once they exist. The published repository and its release provide the public research companion; no archival DOI is claimed.
 
-## Planned publication
+## Publication
 
-Suggested repository name: `article2-targeted-hub-fragility`, under the authors' GitHub account. Publish the reviewed files, create an immutable release tag, and then add the actual URL (and preferably an archive DOI) to the manuscript's Data and code availability statement and CITATION.cff. Do not cite an unpublished local path as a public resource.
+Repository: https://github.com/svpog/article2-targeted-hub-fragility. The manuscript cites release v1.0.0. Article DOI and an archival dataset DOI remain to be added when issued.
