@@ -1,0 +1,21 @@
+S3B Irreversibility Report
+===========================
+
+Total runs: 10800, valid: 10800, invalid: 0
+Invalid reasons: none
+
+Mean targeted vulnerability by w:
+      VI_rho_med  VI_rho_CVaR_0.10  VI_R_inf_med
+w                                               
+0.00    0.021721          0.015041      0.000000
+0.10    0.033780          0.253369      0.011111
+0.25    0.333222          0.875469      0.320449
+
+Trend checks:
+- Spearman w vs rho_med: rho=-1.000, p=0
+- Spearman w vs rho_CVaR_0.10: rho=-1.000, p=0
+- Spearman w vs R_inf_med: rho=-1.000, p=0
+
+Wilcoxon tests significant after Bonferroni: 93/108
+
+Interpretation: increasing w mainly reduces R_inf and increases non_recovered rate; the early targeted effect remains visible but the long-horizon recovery gap becomes sharper.

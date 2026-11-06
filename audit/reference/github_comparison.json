@@ -1,0 +1,57 @@
+[
+  {
+    "path": "_s3_extended_abc.py",
+    "same_as_local": true,
+    "remote_sha256": "a52a44a60b90f0671239f1f0b4f4ba03c0c22131ff8cda18a2e34ff5e9285d33"
+  },
+  {
+    "path": "_s3_analysis.py",
+    "same_as_local": true,
+    "remote_sha256": "f6b5941902dfb94268f81ad2333dd6e4f04388bd72b1a0f5b0e7b04bff9980dc"
+  },
+  {
+    "path": "src/experiments/runner.py",
+    "same_as_local": true,
+    "remote_sha256": "d2eeacde581f999c9f9df5c51308449820cbef30c75f1b6b4cd4695a62703245"
+  },
+  {
+    "path": "src/disruptions/fixed_budget_node.py",
+    "same_as_local": true,
+    "remote_sha256": "6c922fce116e374ae4d9f70414dcde2a3bbd7d45decdb4aebc501169da29a8fc"
+  },
+  {
+    "path": "src/metrics/integral.py",
+    "same_as_local": true,
+    "remote_sha256": "a64f71ae5437f9fd8d69c4ba2aa93965f30b315040e731759595eaa937d15e43"
+  },
+  {
+    "path": "src/metrics/stochastic.py",
+    "same_as_local": true,
+    "remote_sha256": "4b68595eb294f07d239ae78a7034533eb0d8724fb9dfad0728f9c5c4db18f948"
+  },
+  {
+    "path": "src/network/generators/hub.py",
+    "same_as_local": true,
+    "remote_sha256": "ab4eaae973a1fa5ed7abd51aeb3732dd75ab7802bc2872676c4bce4d139d5a22"
+  },
+  {
+    "path": "src/recovery/random_strategy.py",
+    "same_as_local": true,
+    "remote_sha256": "2c78d1bf732cb867c0ab2d065ab3c889c90c96eb2e2913d0c812664c7e8ab7e7"
+  },
+  {
+    "path": "config/series_S3.yaml",
+    "same_as_local": true,
+    "remote_sha256": "6e584078bac87365b8579eb8c4daf3ef7781f7595dc19ef87eeb130ef311314e"
+  },
+  {
+    "path": "docs/Протокол_S3_ABC_Codex.docx",
+    "same_as_local": true,
+    "remote_sha256": "65ee35f88a49271cb63bc58671c53f77a3b664e036b9f02bffe6941d8d1c7b1e"
+  },
+  {
+    "path": "docs/TZ_S3_targeted_hub_disruptions.docx",
+    "same_as_local": true,
+    "remote_sha256": "8221088922e441c28d08888edaa867f59809806c63d13975104df37f488fdf03"
+  }
+]

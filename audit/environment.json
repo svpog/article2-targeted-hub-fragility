@@ -1,0 +1,17 @@
+{
+  "purpose": "Verified numerical audit and release-preparation environment; not an original simulation lock",
+  "python": "3.9.6",
+  "platform": "Darwin",
+  "machine": "arm64",
+  "direct_packages": {
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "matplotlib": "3.9.4",
+    "seaborn": "0.13.2",
+    "PyYAML": "6.0.3",
+    "pyarrow": "21.0.0",
+    "Pillow": "11.3.0"
+  }
+}

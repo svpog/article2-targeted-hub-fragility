@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-05-09T22:33:48",
+  "n_raw_rows": 9000,
+  "n_q_rows": 909000,
+  "valid_runs": 9000,
+  "invalid_runs": 0,
+  "seed_policy": "stable sha256 over series/config/paired_id/seed_kind",
+  "Q_t0_semantics": "post-disruption immediate state for S3B/S3C"
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this research companion and the associated article when its publication details become available."
+title: "Metric-Dependent Targeted Fragility of Hub-Based Supply Networks: Research Companion"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Pohorielov
+    given-names: Stanislav V.
+    orcid: "https://orcid.org/0000-0002-0189-8655"
+  - family-names: Yanovskyi
+    given-names: Oleksii V.
+    orcid: "https://orcid.org/0009-0002-4310-2843"
+abstract: "Original code, protocols, 27,800 archived Monte Carlo runs and reproducible numerical checks for experiments B1–B4 on targeted fragility in synthetic hub-based supply networks."
+keywords:
+  - supply networks
+  - resilience
+  - targeted disruptions
+  - maximum flow
+  - reproducibility

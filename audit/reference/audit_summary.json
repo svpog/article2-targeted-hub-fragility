@@ -1,0 +1,364 @@
+{
+  "S3": {
+    "rows": 8000,
+    "valid": 8000,
+    "q_rows": 808000,
+    "points_per_run": [
+      101
+    ],
+    "rho_max_error": 3.3306690738754696e-16,
+    "R_rb_max_error": 8.326672684688674e-17,
+    "R_inf_vs_final_max_error": 0.040000000000000036,
+    "Q0_range": [
+      1.0,
+      1.0
+    ],
+    "nonrec_mismatch": 0,
+    "k_values": {
+      "0.02": [
+        1
+      ],
+      "0.05": [
+        2
+      ],
+      "0.1": [
+        3
+      ],
+      "0.2": [
+        6
+      ]
+    },
+    "paired_mismatches": {
+      "seed": 0,
+      "F0": 0,
+      "k_attack": 0
+    },
+    "duplicate_rows": 0
+  },
+  "S3B_irreversibility": {
+    "rows": 10800,
+    "valid": 10800,
+    "q_rows": 1090800,
+    "points_per_run": [
+      101
+    ],
+    "rho_max_error": 1.9984014443252818e-15,
+    "R_rb_max_error": 5.551115123125783e-17,
+    "R_inf_vs_final_max_error": 8.326672684688674e-17,
+    "Q0_range": [
+      0.0,
+      1.0
+    ],
+    "nonrec_mismatch": 0,
+    "k_values": {
+      "0.05": [
+        2
+      ],
+      "0.1": [
+        3
+      ],
+      "0.2": [
+        6
+      ]
+    },
+    "paired_mismatches": {
+      "network_seed": 0,
+      "damage_seed": 0,
+      "recovery_seed": 0,
+      "irreversible_seed": 0,
+      "F0": 0,
+      "k_attack": 0
+    },
+    "duplicate_rows": 0,
+    "damage_sets_vary_across_w": 0,
+    "rounding_mismatch": 0
+  },
+  "S3C_attack_rules": {
+    "rows": 9000,
+    "valid": 9000,
+    "q_rows": 909000,
+    "points_per_run": [
+      101
+    ],
+    "rho_max_error": 3.3306690738754696e-16,
+    "R_rb_max_error": 5.551115123125783e-17,
+    "R_inf_vs_final_max_error": 0.0,
+    "Q0_range": [
+      0.0,
+      1.0
+    ],
+    "nonrec_mismatch": 0,
+    "k_values": {
+      "0.05": [
+        2
+      ],
+      "0.1": [
+        3
+      ],
+      "0.2": [
+        6
+      ]
+    },
+    "paired_mismatches": {
+      "network_seed": 0,
+      "damage_seed": 0,
+      "recovery_seed": 0,
+      "irreversible_seed": 0,
+      "F0": 0,
+      "k_attack": 0
+    },
+    "duplicate_rows": 0
+  },
+  "B2_means": {
+    "5": {
+      "VI_rho": 0.304898927,
+      "VI_CVaR": 0.267038615,
+      "VI_Rrb": 0.92
+    },
+    "10": {
+      "VI_rho": 0.167340863,
+      "VI_CVaR": 0.127150828,
+      "VI_Rrb": 0.92
+    },
+    "20": {
+      "VI_rho": 0.087413993,
+      "VI_CVaR": 0.058503844,
+      "VI_Rrb": 0.92
+    },
+    "50": {
+      "VI_rho": 0.035931689,
+      "VI_CVaR": 0.022501036,
+      "VI_Rrb": 0.92
+    },
+    "100": {
+      "VI_rho": 0.018132985,
+      "VI_CVaR": 0.011119225,
+      "VI_Rrb": 0.92
+    }
+  },
+  "tests": {
+    "B1": {
+      "n": 20,
+      "significant": 20,
+      "p_adj_min": 7.039180509816418e-43,
+      "p_adj_max": 4.812922865914285e-27
+    },
+    "B2": {
+      "n": 300,
+      "significant": 200,
+      "p_adj_min": 1.0558770764724627e-41,
+      "p_adj_max": 1.0
+    },
+    "B3": {
+      "n": 108,
+      "significant": 93,
+      "p_adj_min": 1.2819946035081982e-40,
+      "p_adj_max": 1.0
+    },
+    "B4": {
+      "n": 108,
+      "significant": 108,
+      "p_adj_min": 1.2819946035081982e-40,
+      "p_adj_max": 1.7719559210409968e-26
+    }
+  },
+  "B2_test_recheck": {
+    "matched_rows": 300,
+    "max_p_error": 2.3418569598232155e-33,
+    "max_p_adj_error": 7.0255708794696785e-31
+  },
+  "B3_test_recheck": {
+    "matched_rows": 108,
+    "max_p_error": 6.462348535570529e-27,
+    "max_p_adj_error": 1.0097419586828951e-28
+  },
+  "B4_test_recheck": {
+    "matched_rows": 108,
+    "max_p_error": 8.552847072295026e-50,
+    "max_p_adj_error": 1.3289669407807476e-26
+  },
+  "jaccard": [
+    {
+      "A": "betweenness",
+      "B": "degree",
+      "n": 1800,
+      "mean": 1.0,
+      "median": 1.0,
+      "minimum": 1.0,
+      "identical_fraction": 1.0
+    },
+    {
+      "A": "betweenness",
+      "B": "flow_impact",
+      "n": 1800,
+      "mean": 0.8986560846560846,
+      "median": 1.0,
+      "minimum": 0.0,
+      "identical_fraction": 0.7988888888888889
+    },
+    {
+      "A": "betweenness",
+      "B": "hub_role",
+      "n": 1800,
+      "mean": 1.0,
+      "median": 1.0,
+      "minimum": 1.0,
+      "identical_fraction": 1.0
+    },
+    {
+      "A": "degree",
+      "B": "flow_impact",
+      "n": 1800,
+      "mean": 0.8986560846560846,
+      "median": 1.0,
+      "minimum": 0.0,
+      "identical_fraction": 0.7988888888888889
+    },
+    {
+      "A": "degree",
+      "B": "hub_role",
+      "n": 1800,
+      "mean": 1.0,
+      "median": 1.0,
+      "minimum": 1.0,
+      "identical_fraction": 1.0
+    },
+    {
+      "A": "flow_impact",
+      "B": "hub_role",
+      "n": 1800,
+      "mean": 0.8986560846560846,
+      "median": 1.0,
+      "minimum": 0.0,
+      "identical_fraction": 0.7988888888888889
+    }
+  ],
+  "S3_VI": {
+    "0.02": {
+      "VI_rho_med": 0.007603960396039655,
+      "VI_rho_CVaR": 0.00504926300477424,
+      "VI_R_rb_med": 0.768,
+      "VI_R_inf_med": 0.0
+    },
+    "0.05": {
+      "VI_rho_med": 0.012654174935970652,
+      "VI_rho_CVaR": 0.010790854940026162,
+      "VI_R_rb_med": 0.932,
+      "VI_R_inf_med": 0.0
+    },
+    "0.1": {
+      "VI_rho_med": 0.01960396039603962,
+      "VI_rho_CVaR": 0.012505684432402608,
+      "VI_R_rb_med": 0.9800000000000001,
+      "VI_R_inf_med": 0.0
+    },
+    "0.2": {
+      "VI_rho_med": 0.03266984369599539,
+      "VI_rho_CVaR": 0.016131098239321594,
+      "VI_R_rb_med": 1.0,
+      "VI_R_inf_med": 0.0
+    }
+  },
+  "S3B_irreversibility_VI": {
+    "0.0": {
+      "VI_rho_med": 0.021720541691199673,
+      "VI_rho_CVaR": 0.015041111528199622,
+      "VI_R_rb_med": 0.9644444444444444,
+      "VI_R_inf_med": 0.0
+    },
+    "0.1": {
+      "VI_rho_med": 0.03377998906719083,
+      "VI_rho_CVaR": 0.25336940021961263,
+      "VI_R_rb_med": 0.9644444444444444,
+      "VI_R_inf_med": 0.011111111111111108
+    },
+    "0.25": {
+      "VI_rho_med": 0.33322212035932247,
+      "VI_rho_CVaR": 0.8754691578741457,
+      "VI_R_rb_med": 0.9644444444444444,
+      "VI_R_inf_med": 0.32044917257683214
+    }
+  },
+  "B3_metric_means": [
+    {
+      "w": 0.0,
+      "disruption_mode": "random_fixed_k",
+      "rho_med": 0.9996699669966996,
+      "rho_CVaR": 0.9801975153110047,
+      "R_rb_med": 0.9888888888888889,
+      "R_inf_med": 1.0,
+      "non_rec": 0.0
+    },
+    {
+      "w": 0.0,
+      "disruption_mode": "targeted",
+      "rho_med": 0.9779603062347051,
+      "rho_CVaR": 0.9655011433392661,
+      "R_rb_med": 0.035555555555555556,
+      "R_inf_med": 1.0,
+      "non_rec": 0.0
+    },
+    {
+      "w": 0.1,
+      "disruption_mode": "random_fixed_k",
+      "rho_med": 0.9995599559955995,
+      "rho_CVaR": 0.9040861944344597,
+      "R_rb_med": 0.9888888888888889,
+      "R_inf_med": 1.0,
+      "non_rec": 0.02277777777777778
+    },
+    {
+      "w": 0.1,
+      "disruption_mode": "targeted",
+      "rho_med": 0.965837093913473,
+      "rho_CVaR": 0.7138006296564616,
+      "R_rb_med": 0.035555555555555556,
+      "R_inf_med": 0.9888888888888889,
+      "non_rec": 0.14
+    },
+    {
+      "w": 0.25,
+      "disruption_mode": "random_fixed_k",
+      "rho_med": 0.9995599559955995,
+      "rho_CVaR": 0.6070335054171367,
+      "R_rb_med": 0.9888888888888889,
+      "R_inf_med": 1.0,
+      "non_rec": 0.09833333333333333
+    },
+    {
+      "w": 0.25,
+      "disruption_mode": "targeted",
+      "rho_med": 0.6664749666456006,
+      "rho_CVaR": 0.0813498349834983,
+      "R_rb_med": 0.035555555555555556,
+      "R_inf_med": 0.6795508274231679,
+      "non_rec": 0.6922222222222223
+    }
+  ],
+  "S3C_attack_rules_VI": {
+    "betweenness": {
+      "VI_rho_med": 0.023228206840161667,
+      "VI_rho_CVaR": 0.011963751517042999,
+      "VI_R_rb_med": 0.9622222222222222,
+      "VI_R_inf_med": 0.0
+    },
+    "degree": {
+      "VI_rho_med": 0.023228206840161667,
+      "VI_rho_CVaR": 0.011963751517042999,
+      "VI_R_rb_med": 0.9622222222222222,
+      "VI_R_inf_med": 0.0
+    },
+    "flow_impact": {
+      "VI_rho_med": 0.023128605246536173,
+      "VI_rho_CVaR": 0.012226001885632078,
+      "VI_R_rb_med": 0.9666666666666666,
+      "VI_R_inf_med": 0.0
+    },
+    "hub_role": {
+      "VI_rho_med": 0.023228206840161667,
+      "VI_rho_CVaR": 0.011963751517042999,
+      "VI_R_rb_med": 0.9622222222222222,
+      "VI_R_inf_med": 0.0
+    }
+  }
+}

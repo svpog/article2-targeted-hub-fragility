@@ -1,0 +1,7 @@
+A,B,n,mean,median,minimum,identical_fraction
+betweenness,degree,1800,1.0,1.0,1.0,1.0
+betweenness,flow_impact,1800,0.8986560846560846,1.0,0.0,0.7988888888888889
+betweenness,hub_role,1800,1.0,1.0,1.0,1.0
+degree,flow_impact,1800,0.8986560846560846,1.0,0.0,0.7988888888888889
+degree,hub_role,1800,1.0,1.0,1.0,1.0
+flow_impact,hub_role,1800,0.8986560846560846,1.0,0.0,0.7988888888888889

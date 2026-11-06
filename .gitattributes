@@ -1,0 +1,9 @@
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.cff text eol=lf
+*.csv -text
+*.parquet binary
+*.docx binary
+*.png binary

@@ -1,0 +1,17 @@
+{
+  "base_s3_unchanged": true,
+  "S3B_total_runs": 10800,
+  "S3B_valid_runs": 10800,
+  "S3B_invalid_runs": 0,
+  "S3B_metric_bounds_ok": true,
+  "S3C_total_runs": 9000,
+  "S3C_valid_runs": 9000,
+  "S3C_invalid_runs": 0,
+  "S3C_metric_bounds_ok": true,
+  "S3B_paired_network_seed_F0_k_consistent": true,
+  "S3B_damaged_set_same_across_w": true,
+  "S3C_paired_network_seed_F0_k_consistent": true,
+  "missing_required_figures": [],
+  "all_required_figures_exist": true,
+  "S3A_metadata_exists": true
+}

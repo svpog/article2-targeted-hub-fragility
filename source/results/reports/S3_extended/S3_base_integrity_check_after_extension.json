@@ -1,0 +1,113 @@
+{
+  "unchanged": true,
+  "changed_files": [],
+  "missing_files": [],
+  "before": {
+    "results/raw/S3/raw_results.csv": {
+      "sha256": "b4c7418a003b8663186d6ca9b7cb53a96b947ca7a1628231ffaf7898f9b950db",
+      "size": 2330734
+    },
+    "results/raw/S3/Q_curves.parquet": {
+      "sha256": "4877376fd98c64c8616fd25179ef6f3a4f2f3e2833dd6b02e256674453bdce9e",
+      "size": 142211
+    },
+    "results/raw/S3/run_metadata.json": {
+      "sha256": "55b1620a77e2e13dfe942c4605632eb2a4108ae47c6620031c36d68e77fd9c09",
+      "size": 178
+    },
+    "results/aggregated/S3/aggregated_results.csv": {
+      "sha256": "fc2677e15d0cef0e631678e2b8634c6ae4e764e4e32e23449644fa2d6f41d9f6",
+      "size": 15641
+    },
+    "results/aggregated/S3_hypothesis_test.txt": {
+      "sha256": "ed180e9a3a63f760475d4ee6a02f568a77df72a62cffb694cbfbd1baa4461188",
+      "size": 8413
+    },
+    "results/figures/S3_Q_curves_random_vs_targeted_en.png": {
+      "sha256": "44bcf8ddcaa69b323f5c76431815e6361be7b1607a6e02e66db8481331e84969",
+      "size": 162051
+    },
+    "results/figures/S3_Q_curves_random_vs_targeted_uk.png": {
+      "sha256": "f9cc1620cb4e64a5dc33791b41842d2fa29cf711f0096113918defd1164fc38f",
+      "size": 160890
+    },
+    "results/figures/S3_cvar_vs_h_en.png": {
+      "sha256": "f2746ba6a6af5a18a2ec71e1ee0ec86cf231beb583392ddd44482837f8d4b553",
+      "size": 236384
+    },
+    "results/figures/S3_cvar_vs_h_uk.png": {
+      "sha256": "566e1da93ed1d30fe6a7b27c4fd7ad2c8eab90f3230df3c72823e8a973f88bf1",
+      "size": 237779
+    },
+    "results/figures/S3_fragility_threshold_en.png": {
+      "sha256": "97a391196d394a7bdd7e2d07104cd1a6e4626f4104a195b3daf693e0c1733739",
+      "size": 81680
+    },
+    "results/figures/S3_fragility_threshold_uk.png": {
+      "sha256": "605f5c7c28e7c39142185184c113f6cb43358735a6b030adaee6c6448fc2189f",
+      "size": 79912
+    },
+    "results/figures/S3_vulnerability_heatmap_en.png": {
+      "sha256": "f48b97fb5b3933f49506bc8ee340c107f0b2f913dee4ae28c9f01312329ae93c",
+      "size": 156034
+    },
+    "results/figures/S3_vulnerability_heatmap_uk.png": {
+      "sha256": "146a2577cd853b11d28b7fe6497948a18d1307f2250d6b110cf1e7621f754e8b",
+      "size": 157202
+    }
+  },
+  "after": {
+    "results/raw/S3/raw_results.csv": {
+      "sha256": "b4c7418a003b8663186d6ca9b7cb53a96b947ca7a1628231ffaf7898f9b950db",
+      "size": 2330734
+    },
+    "results/raw/S3/Q_curves.parquet": {
+      "sha256": "4877376fd98c64c8616fd25179ef6f3a4f2f3e2833dd6b02e256674453bdce9e",
+      "size": 142211
+    },
+    "results/raw/S3/run_metadata.json": {
+      "sha256": "55b1620a77e2e13dfe942c4605632eb2a4108ae47c6620031c36d68e77fd9c09",
+      "size": 178
+    },
+    "results/aggregated/S3/aggregated_results.csv": {
+      "sha256": "fc2677e15d0cef0e631678e2b8634c6ae4e764e4e32e23449644fa2d6f41d9f6",
+      "size": 15641
+    },
+    "results/aggregated/S3_hypothesis_test.txt": {
+      "sha256": "ed180e9a3a63f760475d4ee6a02f568a77df72a62cffb694cbfbd1baa4461188",
+      "size": 8413
+    },
+    "results/figures/S3_Q_curves_random_vs_targeted_en.png": {
+      "sha256": "44bcf8ddcaa69b323f5c76431815e6361be7b1607a6e02e66db8481331e84969",
+      "size": 162051
+    },
+    "results/figures/S3_Q_curves_random_vs_targeted_uk.png": {
+      "sha256": "f9cc1620cb4e64a5dc33791b41842d2fa29cf711f0096113918defd1164fc38f",
+      "size": 160890
+    },
+    "results/figures/S3_cvar_vs_h_en.png": {
+      "sha256": "f2746ba6a6af5a18a2ec71e1ee0ec86cf231beb583392ddd44482837f8d4b553",
+      "size": 236384
+    },
+    "results/figures/S3_cvar_vs_h_uk.png": {
+      "sha256": "566e1da93ed1d30fe6a7b27c4fd7ad2c8eab90f3230df3c72823e8a973f88bf1",
+      "size": 237779
+    },
+    "results/figures/S3_fragility_threshold_en.png": {
+      "sha256": "97a391196d394a7bdd7e2d07104cd1a6e4626f4104a195b3daf693e0c1733739",
+      "size": 81680
+    },
+    "results/figures/S3_fragility_threshold_uk.png": {
+      "sha256": "605f5c7c28e7c39142185184c113f6cb43358735a6b030adaee6c6448fc2189f",
+      "size": 79912
+    },
+    "results/figures/S3_vulnerability_heatmap_en.png": {
+      "sha256": "f48b97fb5b3933f49506bc8ee340c107f0b2f913dee4ae28c9f01312329ae93c",
+      "size": 156034
+    },
+    "results/figures/S3_vulnerability_heatmap_uk.png": {
+      "sha256": "146a2577cd853b11d28b7fe6497948a18d1307f2250d6b110cf1e7621f754e8b",
+      "size": 157202
+    }
+  }
+}

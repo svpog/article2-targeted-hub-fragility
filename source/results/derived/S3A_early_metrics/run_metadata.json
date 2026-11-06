@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-05-09T22:35:45",
+  "series": "S3A_early_metrics",
+  "input_raw": "results/raw/S3/raw_results.csv",
+  "input_q_curves": "results/raw/S3/Q_curves.parquet",
+  "n_run_early_rows": 40000,
+  "T_eff_values": [
+    5,
+    10,
+    20,
+    50,
+    100
+  ],
+  "note": "Derived only from existing base S3 outputs; no new simulation."
+}

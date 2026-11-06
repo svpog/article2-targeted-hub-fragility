@@ -1,0 +1,26 @@
+S3C Attack Rules Report
+=======================
+
+Total runs: 9000, valid: 9000, invalid: 0
+Invalid reasons: none
+
+Most destructive rule counts by metric:
+          metric attack_rule  n_worst
+        R_rb_med betweenness        8
+        R_rb_med flow_impact        1
+   rho_CVaR_0.10 betweenness        5
+   rho_CVaR_0.10 flow_impact        4
+rho_early_10_med betweenness        9
+         rho_med betweenness        9
+
+Mean VI against random baseline:
+                      VI_rho_med  VI_rho_CVaR_0.10  VI_R_rb_med  VI_rho_early_10_med
+attack_rule_targeted                                                                
+flow_impact             0.023129          0.012226     0.966667             0.213966
+betweenness             0.023228          0.011964     0.962222             0.214928
+degree                  0.023228          0.011964     0.962222             0.214928
+hub_role                0.023228          0.011964     0.962222             0.214928
+
+Random-vs-rule Wilcoxon tests significant after Bonferroni: 108/108
+
+Interpretation: the most destructive rule is identified by repeated rank-1 counts and largest VI_CVaR against random baseline.

@@ -1,0 +1,357 @@
+[
+  {
+    "path": "source/_s3_analysis.py",
+    "sha256": "f6b5941902dfb94268f81ad2333dd6e4f04388bd72b1a0f5b0e7b04bff9980dc",
+    "bytes": 15937
+  },
+  {
+    "path": "source/_s3_extended_abc.py",
+    "sha256": "a52a44a60b90f0671239f1f0b4f4ba03c0c22131ff8cda18a2e34ff5e9285d33",
+    "bytes": 52213
+  },
+  {
+    "path": "source/config/base_config.yaml",
+    "sha256": "446fbc69c627eec065f4c41369f1bcf6c613a922e50bdc3f701521e827b1f9f4",
+    "bytes": 2012
+  },
+  {
+    "path": "source/config/series_S3.yaml",
+    "sha256": "6e584078bac87365b8579eb8c4daf3ef7781f7595dc19ef87eeb130ef311314e",
+    "bytes": 1161
+  },
+  {
+    "path": "source/docs/Math_Spec_Стаття_1.docx",
+    "sha256": "79c7631cd228477b81819566810b2183b82e640983c00a31204c3e54c659b5f5",
+    "bytes": 30967
+  },
+  {
+    "path": "source/docs/TZ_S3_targeted_hub_disruptions.docx",
+    "sha256": "8221088922e441c28d08888edaa867f59809806c63d13975104df37f488fdf03",
+    "bytes": 52276
+  },
+  {
+    "path": "source/docs/Протокол_S3_ABC_Codex.docx",
+    "sha256": "65ee35f88a49271cb63bc58671c53f77a3b664e036b9f02bffe6941d8d1c7b1e",
+    "bytes": 45609
+  },
+  {
+    "path": "source/results/aggregated/S3/aggregated_results.csv",
+    "sha256": "fc2677e15d0cef0e631678e2b8634c6ae4e764e4e32e23449644fa2d6f41d9f6",
+    "bytes": 15641
+  },
+  {
+    "path": "source/results/aggregated/S3B_irreversibility/aggregated_results.csv",
+    "sha256": "b3ed2e971dcc6327fac7472fd2700cf5bdfe6e6132b705af9b9e7a4a436d2e15",
+    "bytes": 28579
+  },
+  {
+    "path": "source/results/aggregated/S3B_irreversibility/paired_vulnerability_indices.csv",
+    "sha256": "979de09dd8cea9b71a3b7e125b65be798c86c5096706bd7db9bccdf600ea05e7",
+    "bytes": 33392
+  },
+  {
+    "path": "source/results/aggregated/S3B_irreversibility/statistical_tests.csv",
+    "sha256": "7a1049a7b3c16b8a792f45a6bb018cfe19043104736f70346f06702d83e829d9",
+    "bytes": 15353
+  },
+  {
+    "path": "source/results/aggregated/S3C_attack_rules/aggregated_results.csv",
+    "sha256": "ef6236e949c5d33c992a9d62da4d3868d031d79d1591a5d48c84342c567173fa",
+    "bytes": 25872
+  },
+  {
+    "path": "source/results/aggregated/S3C_attack_rules/attack_rule_rankings.csv",
+    "sha256": "86b8276da63cb2d702cfad2582843d112334b4d2e18348dfa6c0bd83dc0cc3db",
+    "bytes": 6568
+  },
+  {
+    "path": "source/results/aggregated/S3C_attack_rules/rule_vulnerability_indices.csv",
+    "sha256": "17973a29e003e7d054360eda0c88cc5bcdd413f1ff2b6f0bd5ef3fe698957c83",
+    "bytes": 43847
+  },
+  {
+    "path": "source/results/aggregated/S3C_attack_rules/statistical_tests.csv",
+    "sha256": "c00fffcbe4b02013e283f7bc8764eff22de7accfb8584866b80f38346bbdb6d0",
+    "bytes": 15320
+  },
+  {
+    "path": "source/results/aggregated/S3_hypothesis_test.txt",
+    "sha256": "ed180e9a3a63f760475d4ee6a02f568a77df72a62cffb694cbfbd1baa4461188",
+    "bytes": 8413
+  },
+  {
+    "path": "source/results/derived/S3A_early_metrics/aggregated_early_metrics.csv",
+    "sha256": "417f868c80cdc75d98a24c2ff48795ed32e0d1a56afb020d54cc3355d027337c",
+    "bytes": 39321
+  },
+  {
+    "path": "source/results/derived/S3A_early_metrics/early_metric_summary.txt",
+    "sha256": "38bb2e3f09792b48bcdbadb299eac73124a0d2522438791e8fb2a90b60e27a5c",
+    "bytes": 1308
+  },
+  {
+    "path": "source/results/derived/S3A_early_metrics/early_metric_tests.csv",
+    "sha256": "4d2a676481b98cb342ec4a2bc8350217fefb5d8fb0cd348bc032a955ec8a3c74",
+    "bytes": 37799
+  },
+  {
+    "path": "source/results/derived/S3A_early_metrics/paired_vulnerability_indices.csv",
+    "sha256": "9f78f1d6229b41efc626bde8a63e7f660a6146c5eeb9d53042d614b1d7cd6e58",
+    "bytes": 47308
+  },
+  {
+    "path": "source/results/derived/S3A_early_metrics/run_early_metrics.csv",
+    "sha256": "d926153e70cabaeb825bcb180e803cc948549384961e3d743ec017ec6ad066eb",
+    "bytes": 5539463
+  },
+  {
+    "path": "source/results/derived/S3A_early_metrics/run_metadata.json",
+    "sha256": "8dce7330e0a02bf3236943f0b79a6b0026a2424f7d2e10066632cd740dbcf655",
+    "bytes": 347
+  },
+  {
+    "path": "source/results/raw/S3/Q_curves.parquet",
+    "sha256": "4877376fd98c64c8616fd25179ef6f3a4f2f3e2833dd6b02e256674453bdce9e",
+    "bytes": 142211
+  },
+  {
+    "path": "source/results/raw/S3/raw_results.csv",
+    "sha256": "b4c7418a003b8663186d6ca9b7cb53a96b947ca7a1628231ffaf7898f9b950db",
+    "bytes": 2330734
+  },
+  {
+    "path": "source/results/raw/S3/run_metadata.json",
+    "sha256": "55b1620a77e2e13dfe942c4605632eb2a4108ae47c6620031c36d68e77fd9c09",
+    "bytes": 178
+  },
+  {
+    "path": "source/results/raw/S3B_irreversibility/Q_curves.parquet",
+    "sha256": "044d67917dae6296809a23fd66588754fe9f83fc0056a8336e55d0d56e261fc4",
+    "bytes": 246391
+  },
+  {
+    "path": "source/results/raw/S3B_irreversibility/raw_results.csv",
+    "sha256": "778fd3005fdecb03b346d20cc99db0bc95aa075c84e536afc7e738824a28e844",
+    "bytes": 3644013
+  },
+  {
+    "path": "source/results/raw/S3B_irreversibility/run_metadata.json",
+    "sha256": "e8bb086c9614198750d3b597c970c2a0c45855f8d01eafcf6e13423283633473",
+    "bytes": 271
+  },
+  {
+    "path": "source/results/raw/S3C_attack_rules/Q_curves.parquet",
+    "sha256": "16ad6ad7ff58043c637e8260d81685ac17054e017339e9d2056db566bed16615",
+    "bytes": 199676
+  },
+  {
+    "path": "source/results/raw/S3C_attack_rules/raw_results.csv",
+    "sha256": "51788af6e496104623f0a1d285c66cca01e445c79f46c420ae221906ce8f124f",
+    "bytes": 3006579
+  },
+  {
+    "path": "source/results/raw/S3C_attack_rules/run_metadata.json",
+    "sha256": "188e8aec53fdc615669c0bc54f7d180e41bcf86a6aa47308554ba5615f90e05b",
+    "bytes": 268
+  },
+  {
+    "path": "source/results/reports/S3_extended/S3A_early_metrics_report.txt",
+    "sha256": "38bb2e3f09792b48bcdbadb299eac73124a0d2522438791e8fb2a90b60e27a5c",
+    "bytes": 1308
+  },
+  {
+    "path": "source/results/reports/S3_extended/S3B_irreversibility_report.txt",
+    "sha256": "1601fde495a771bc4a9c1357ceaddd3ee60dc026ce46ac0b1a581f661dc6da6c",
+    "bytes": 779
+  },
+  {
+    "path": "source/results/reports/S3_extended/S3C_attack_rules_report.txt",
+    "sha256": "0fe183c19d7edbdcbbee5372faa582bc1fdbdb8a39dc1d825539c204d9839c90",
+    "bytes": 1161
+  },
+  {
+    "path": "source/results/reports/S3_extended/S3_base_integrity_check_after_extension.json",
+    "sha256": "05cfdc585c47736aa0c285d1e5be645402f8deed51a37d59b9ecd1400809d5a4",
+    "bytes": 4338
+  },
+  {
+    "path": "source/results/reports/S3_extended/S3_base_manifest_before.sha256",
+    "sha256": "054b7bd01d26c3e09e7240f924d66d968e33625abbbc1e35dab410fb6aac8e36",
+    "bytes": 1409
+  },
+  {
+    "path": "source/results/reports/S3_extended/S3_base_manifest_before_extension.json",
+    "sha256": "9ac1428dbcee1e2a6549a38ea54cb685ce939b1f271324ab2167c686b7765ed1",
+    "bytes": 2015
+  },
+  {
+    "path": "source/results/reports/S3_extended/S3_extended_summary_report.txt",
+    "sha256": "82eecc34e4c320af598c9f2a1a05781729b9d53784414fa02619ca1c35ce3278",
+    "bytes": 3456
+  },
+  {
+    "path": "source/results/reports/S3_extended/S3_quality_checks.json",
+    "sha256": "a65f730554c414ff06c3c40a98ea34c9bbac508702ca117de9884053d810570a",
+    "bytes": 497
+  },
+  {
+    "path": "source/src/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "source/src/disruptions/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "source/src/disruptions/base.py",
+    "sha256": "87f60d711371747f4af8a271fe509d8308fd27bcd0dc3bfeb0edb96ac1c33d51",
+    "bytes": 2115
+  },
+  {
+    "path": "source/src/disruptions/cluster.py",
+    "sha256": "dea1a9f06d381b4e79bc72e21b88dc99b4e8824965f94f3ccc2d4915c8e478a2",
+    "bytes": 7087
+  },
+  {
+    "path": "source/src/disruptions/edge_degradation.py",
+    "sha256": "5e622c9b9b5bc04b5708b85f844dc41e9fed09573ca794b1c7307aa63687c2aa",
+    "bytes": 5159
+  },
+  {
+    "path": "source/src/disruptions/fixed_budget_node.py",
+    "sha256": "6c922fce116e374ae4d9f70414dcde2a3bbd7d45decdb4aebc501169da29a8fc",
+    "bytes": 7926
+  },
+  {
+    "path": "source/src/disruptions/node_failure.py",
+    "sha256": "95f93cea5f262ca1f740b1e1cc9d46037a96e265d12f6d5d5b85d79285605839",
+    "bytes": 2984
+  },
+  {
+    "path": "source/src/experiments/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "source/src/experiments/logger.py",
+    "sha256": "6ced1ff2378fb8c6a421b8af78dcb52e338b4fe0c1ee49bffd8bfdc4f61f7383",
+    "bytes": 4277
+  },
+  {
+    "path": "source/src/experiments/runner.py",
+    "sha256": "d2eeacde581f999c9f9df5c51308449820cbef30c75f1b6b4cd4695a62703245",
+    "bytes": 58960
+  },
+  {
+    "path": "source/src/metrics/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "source/src/metrics/flow.py",
+    "sha256": "297bf200827855a5918351a258e29f9f96d362cd360b5ef20cc07921959b6a3e",
+    "bytes": 2432
+  },
+  {
+    "path": "source/src/metrics/integral.py",
+    "sha256": "a64f71ae5437f9fd8d69c4ba2aa93965f30b315040e731759595eaa937d15e43",
+    "bytes": 9803
+  },
+  {
+    "path": "source/src/metrics/stochastic.py",
+    "sha256": "4b68595eb294f07d239ae78a7034533eb0d8724fb9dfad0728f9c5c4db18f948",
+    "bytes": 6705
+  },
+  {
+    "path": "source/src/metrics/structural.py",
+    "sha256": "e7b64dfa06092eb3188ff50fc174c8ce36b5524cb2924d8a03d0f2459b25bae9",
+    "bytes": 8885
+  },
+  {
+    "path": "source/src/network/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "source/src/network/base.py",
+    "sha256": "21929bf407dcbb328980dab959c1b998bfa1ec743617b1f0ff3bff83d7054e6c",
+    "bytes": 15332
+  },
+  {
+    "path": "source/src/network/flow.py",
+    "sha256": "015ead8bfb7e4f90b0db6999edfe69592ea658544cb800fd7402ea00c124f72c",
+    "bytes": 6987
+  },
+  {
+    "path": "source/src/network/generators/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "source/src/network/generators/dense.py",
+    "sha256": "4ab8a43e86cb5fa18e8e0a3b8a0b48b51336ea9af378c1b7f12e38af8a16d2e1",
+    "bytes": 4518
+  },
+  {
+    "path": "source/src/network/generators/hierarchical.py",
+    "sha256": "a7c31c3ad1a50065ed085b41684e835fed9e009d60afa42a0f064a283f26d5c9",
+    "bytes": 9124
+  },
+  {
+    "path": "source/src/network/generators/hub.py",
+    "sha256": "ab4eaae973a1fa5ed7abd51aeb3732dd75ab7802bc2872676c4bce4d139d5a22",
+    "bytes": 5280
+  },
+  {
+    "path": "source/src/network/generators/reserved.py",
+    "sha256": "af12742c9e7af4026cc91abe2074ac01f9c6674d1cd92edb57a32a9a64e9a395",
+    "bytes": 5836
+  },
+  {
+    "path": "source/src/recovery/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "source/src/recovery/base.py",
+    "sha256": "3e75a85e48895d2010cde2e0c7aa4082090d51ea5024374f921e10300eb8ced3",
+    "bytes": 2888
+  },
+  {
+    "path": "source/src/recovery/random_strategy.py",
+    "sha256": "2c78d1bf732cb867c0ab2d065ab3c889c90c96eb2e2913d0c812664c7e8ab7e7",
+    "bytes": 3411
+  },
+  {
+    "path": "source/src/recovery/strategies/__init__.py",
+    "sha256": "86ccd0b8427dc140f721ca50f03d0726a5301559f52e6d07ee0733e3c78f84b8",
+    "bytes": 2015
+  },
+  {
+    "path": "source/src/recovery/strategies/base.py",
+    "sha256": "68dc180d6c96d9ca95a66304dd6877849821cdee945a90cb8e5b6ac429fe13f1",
+    "bytes": 602
+  },
+  {
+    "path": "source/src/recovery/strategies/centrality.py",
+    "sha256": "a220b3aa194d018d1fa05ebbd8b0fcba13eefe8d8e979149fa40a0c3d72c203d",
+    "bytes": 4282
+  },
+  {
+    "path": "source/src/recovery/strategies/flow_greedy.py",
+    "sha256": "b706a591185554adea64c61975369c963eb13aa887e48e3e3a66c4891f6210af",
+    "bytes": 2846
+  },
+  {
+    "path": "source/src/recovery/strategies/flow_greedy_local.py",
+    "sha256": "0d16fcd6c25937ba119832579196d83bbdfa12c07057ffeb6b867d7c4176674b",
+    "bytes": 10277
+  },
+  {
+    "path": "source/src/recovery/strategies/random.py",
+    "sha256": "ba6c61f04ed3f4105c6a3373449cba2b3b0f17d6ae35b6acb0746c3a6a60f73b",
+    "bytes": 613
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-06",
+  "status": "passed",
+  "archived_source_files_unchanged": 71,
+  "archived_simulation_runs": 27800,
+  "archived_Q_observations": 2807800,
+  "recomputed_reference_tables_matched": 13,
+  "csv_tolerances": {
+    "rtol": 1e-09,
+    "atol": 1e-12
+  },
+  "supplementary_checks": {
+    "B1_Rinf_differs_from_Q100": 72,
+    "B1_Rinf_max_error_vs_Q_at_recovery": 0.0,
+    "B3_nesting_comparisons": 3600,
+    "B3_non_nested_comparisons": 460,
+    "B4_significant_joint_108": 108
+  },
+  "regenerated_English_figures": 6,
+  "isolated_B1_smoke": {
+    "runs": 40,
+    "Q_observations": 4040,
+    "all_valid": true,
+    "paired_seed_and_budget_checks": "passed"
+  },
+  "full_simulation_regeneration": "not run; audit uses all original archived results",
+  "installation_in_fresh_environment": "not tested; execution used existing environment recorded in environment.json",
+  "publication": "local candidate; no remote repository created"
+}

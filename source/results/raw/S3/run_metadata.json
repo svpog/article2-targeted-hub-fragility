@@ -1,0 +1,9 @@
+{
+  "series": "S3",
+  "n_configs": 40,
+  "n_runs_per_config": 200,
+  "total_runs": 8000,
+  "valid_runs": 8000,
+  "elapsed_seconds": 765.78,
+  "timestamp": "2026-05-08T11:29:33"
+}

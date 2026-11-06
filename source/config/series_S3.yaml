@@ -1,0 +1,56 @@
+# Серія S3: хабова централізація та targeted vulnerability
+# Протокол: docs/TZ_S3_targeted_hub_disruptions.docx
+#
+# Ключова методологічна правка:
+#   h_hubs визначає структуру hub-мережі;
+#   attack_fraction/k_attack визначає інтенсивність збою.
+# Random і targeted режими порівнюються при однаковому attack budget.
+
+series: S3
+description: "Hub centralization and targeted vulnerability under fixed-budget disruptions"
+
+network:
+  topology: hub
+  N: 50
+  H: 4
+  c_base: 100
+  supply_surplus: 1.2
+
+disruption:
+  type: node_failure_fixed_budget
+  mode: random_fixed_k
+  candidate_set: transit_only   # V \ (V_s ∪ V_c)
+  attack_rule: betweenness
+
+recovery:
+  strategy: random
+  mu: 1
+  w: 0.0
+
+simulation:
+  T_max: 100
+  Q_target_frac: 0.95
+  M: 200
+  omega: 1.0
+
+metrics:
+  alpha_cvar: 0.10
+  bootstrap_B: 1000
+
+sweep:
+  h_hubs:
+    - 1
+    - 2
+    - 3
+    - 5
+    - 8
+  attack_fraction:
+    - 0.02
+    - 0.05
+    - 0.10
+    - 0.20
+  disruption_mode:
+    - random_fixed_k
+    - targeted
+  attack_rule:
+    - betweenness

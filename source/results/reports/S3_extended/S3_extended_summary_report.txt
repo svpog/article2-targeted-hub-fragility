@@ -1,0 +1,70 @@
+S3 Extended Summary Report
+==========================
+
+Integrity and quality checks
+----------------------------
+{
+  "base_s3_unchanged": true,
+  "S3B_total_runs": 10800,
+  "S3B_valid_runs": 10800,
+  "S3B_invalid_runs": 0,
+  "S3B_metric_bounds_ok": true,
+  "S3C_total_runs": 9000,
+  "S3C_valid_runs": 9000,
+  "S3C_invalid_runs": 0,
+  "S3C_metric_bounds_ok": true,
+  "S3B_paired_network_seed_F0_k_consistent": true,
+  "S3B_damaged_set_same_across_w": true,
+  "S3C_paired_network_seed_F0_k_consistent": true,
+  "missing_required_figures": [],
+  "all_required_figures_exist": true,
+  "S3A_metadata_exists": true
+}
+
+1. Are targeted attacks worse than random_fixed_k?
+Yes. Across S3A paired cells, targeted attacks produce positive vulnerability indices in 100.0% of early-metric comparisons, and S3B/S3C confirm positive VI values against random baselines.
+
+2. In which metrics is the effect strongest?
+VI_R_rb_med               0.920000
+VI_rho_early_med          0.122744
+VI_rho_early_CVaR_0.10    0.097263
+VI_Q0_med                 0.000000
+
+S3C mean vulnerability by attack rule:
+                      VI_rho_med  VI_rho_CVaR_0.10  VI_R_rb_med  VI_rho_early_10_med
+attack_rule_targeted                                                                
+flow_impact             0.023129          0.012226     0.966667             0.213966
+betweenness             0.023228          0.011964     0.962222             0.214928
+degree                  0.023228          0.011964     0.962222             0.214928
+hub_role                0.023228          0.011964     0.962222             0.214928
+
+3. Is the effect early, long-horizon, or both?
+Both. S3A shows the attack effect in R_rb and early rho(T_eff=5..20); Q0 stays at 1.0 in base S3 because that file stores the pre-disruption t=0 state. S3B shows that long-horizon R_inf becomes especially important when w>0.
+
+4. How does irreversible damage fraction w change the picture?
+      VI_rho_med  VI_rho_CVaR_0.10  VI_R_inf_med
+w                                               
+0.00    0.021721          0.015041      0.000000
+0.10    0.033780          0.253369      0.011111
+0.25    0.333222          0.875469      0.320449
+
+Increasing w amplifies long-horizon non-recovery and lowers R_inf; early shock metrics remain mostly governed by the attack set, while recovery extent becomes w-sensitive.
+
+5. Which attack rule is most destructive?
+By mean VI_CVaR, the most destructive rule is: flow_impact. By repeated rank-1 counts across metrics/configurations, the most frequently worst rule is: betweenness.
+Rank-1 destructiveness counts:
+attack_rule
+betweenness    31
+flow_impact     5
+
+6. Are results sufficient for a standalone S3 paper?
+Yes, with one caveat: the paper should explicitly separate early shock vulnerability from long-horizon recovery loss. S3A, S3B, and S3C together form a coherent standalone story: targeted hub attacks are worse than matched random attacks, irreversibility changes recovery extent, and attack-rule choice matters.
+
+7. Recommended tables and figures for the paper
+- Table: S3A early metrics by h, q, and disruption mode.
+- Table: S3B w-sensitivity with rho_med, rho_CVaR, R_inf, non_recovered.
+- Table: S3C attack-rule rankings and VI against random baseline.
+- Figure: S3A VI heatmaps for R_rb and early CVaR.
+- Figure: S3B rho_CVaR/R_inf versus w.
+- Figure: S3C attack-rule ranking heatmap.
+- Figure: Representative Q(t) curves showing early and long-horizon differences.
