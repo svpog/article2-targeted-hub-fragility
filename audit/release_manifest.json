@@ -16,8 +16,8 @@
   },
   {
     "path": "CITATION.cff",
-    "bytes": 928,
-    "sha256": "252d872900c7abfaed63ebac4799adfb0bbf727d5595fc118da6f5f9f014c47b"
+    "bytes": 968,
+    "sha256": "ea2608a6d4a26bba270b0cb24aa6abc04653c69c97245189c1f28c8123aaa791"
   },
   {
     "path": "LICENSE",
@@ -26,8 +26,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 7885,
-    "sha256": "50a04302c77239f57945a31c16bbfebf6e14bec1d23c75052d7cd10b78921b77"
+    "bytes": 8151,
+    "sha256": "d1d64ae2a272e9b0de824d570ac7fd39d70a50b17cda0fd1da69ff609982a09a"
   },
   {
     "path": "audit/environment.json",
@@ -141,13 +141,13 @@
   },
   {
     "path": "docs/PROVENANCE.md",
-    "bytes": 3757,
-    "sha256": "94170b95ca1e84b1d06ab840cfaf9a30269f171db8c63bec54414ad5d1266a22"
+    "bytes": 4007,
+    "sha256": "90a16b44434b21ddc72ee8d9d337d0e4593b93e50b991a03e828556fdb08f2d9"
   },
   {
     "path": "docs/PUBLISHING.md",
-    "bytes": 560,
-    "sha256": "d1e2f1b197582494d8eac3b6bfaa345d2f0438ff64c6b63b36c06ea5c3b37c51"
+    "bytes": 993,
+    "sha256": "742b5bbf5dcd3ba425873feb824fc1d40b4073580d30ec34e79eb176fc3de5f0"
   },
   {
     "path": "docs/REVIEW_CLARIFICATIONS.md",
